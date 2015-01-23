@@ -244,7 +244,7 @@
 - (void)createSmallerViews {
     
     [UIView animateWithDuration:0.4 animations:^() {
-        self.bottomPanel.frame = CGRectMake(0, 202, screenWidth, 77);
+        self.bottomPanel.frame = CGRectMake(0, 212, screenWidth, 77);
     }];
 }
 
